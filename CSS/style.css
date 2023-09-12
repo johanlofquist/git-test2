@@ -1,15 +1,46 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 #nav1 {
     display: flex;
     height: 30vh;
-    width: 70vw;
+    width: 100vw;
     justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(7, 14, 143);
 }
 
 #nav1 button {
     height: 50%;
     width: 25%;
+    background-color: skyblue;
+    font-size: 30px;
+    font-family: tahoma;
+}
+
+main {
+    background-color: skyblue;
+    height: 50vh;
+    width: 100vw;
+}
+
+main p {
+    padding: 50px;
+
+}
+
+footer {
+    background-color: rgb(7, 14, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+footer p {
+
+    color: white;
 }
